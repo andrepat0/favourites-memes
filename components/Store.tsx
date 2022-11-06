@@ -3,7 +3,7 @@ import { useQuery } from 'react-query';
 
 import { useItemSelected } from '../context/ItemSelectedContext';
 
-import getProducts from './api/data.service';
+import getProducts from '../pages/api/data.service';
 import Item from './item/Item';
 
 type ApiResult = {
